@@ -5,14 +5,14 @@ This service is an implementation of an automated medical diagnosis method based
 Python 3.10.12. Libraries: Pandas, NumPy, sklearn, Tenserflow, pyTelegramBotAPI.
 ## Datasets description
 ### data_symptoms_diagnosis:
-Number of classes: 41
-Number of features: 132
-Number of samples: 4920
+Number of classes: 41__
+Number of features: 132__
+Number of samples: 4920__
 Saples consist of symptoms (features) with binary values (0/1) and a target value. 
 ### data_symptoms38_diagnosis:
-Number of classes: 41
-Number of features: 38
-Number of samples: 4920
+Number of classes: 41__
+Number of features: 38__
+Number of samples: 4920__
 Same as data_symptoms_diagnosis but with a reduced number of features. Feature selection methods were applied with accordance classification accuracy.
 ### data_prec:
 Consist of two columns: diagnosis and corresponding precautions.
